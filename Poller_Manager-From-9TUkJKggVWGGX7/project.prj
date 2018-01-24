@@ -1,0 +1,20 @@
+{
+    "LocalDependencies": [
+        "conf.lua",
+        "poller_manager.lua"
+    ],
+    "LuaDependencies": [
+        "ha.conf",
+        "ha.server_class",
+        "html_entities",
+        "net.http.cache",
+        "store2"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1516822620",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

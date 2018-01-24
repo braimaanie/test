@@ -1,0 +1,25 @@
+<channel
+   name="Poller Manager"
+   guid="E94C8E821EA8E350788F2DC0F69BD909"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Poller_Manager-From-9TUkJKggVWGGX7"
+      commit_id="a6cc4840bed3445f9c15514902fdb4c21e1f42f1"
+      commit_comment="Import Translators: channels"
+      poll_time="5000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
